@@ -1,0 +1,67 @@
+html{
+  background: url(background.jpg) center top fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  margin: 30px 300px 50px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body header{
+  text-align: center;
+  color: #32CD32;
+}
+
+header img{
+  width: 20%;
+}
+
+header h1{
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+header > div{
+  padding: 10px 200px 10px;
+  display: inline-block;
+  background: #32CD32;
+}
+
+main ul{
+  color: white;
+  list-style-type: square;
+  display: inline-block;
+  line-height: 10px;
+}
+
+li > div{
+  list-style-position: inside;
+  margin-left: -20px;
+}
+
+#barra1{
+  width: 300px;
+  height: 20px;
+  background: orange;
+  border-radius: 5px;
+  margin: -5px 1px 50px;
+}
+
+#barra2{
+  width: 500px;
+  height: 20px;
+  background: green;
+  border-radius: 5px;
+  margin: -5px 1px 50px;
+}
+
+#barra3{
+  width: 150px;
+  height: 20px;
+  background: #B22222;
+  border-radius: 5px;
+  margin: -5px 1px 50px;
+}
